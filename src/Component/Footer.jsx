@@ -6,7 +6,9 @@ import { FaInstagramSquare } from "react-icons/fa";
 
 const Footer = () => {
   let details = ["+91 58758-580750", "demosite@gmail.com", "Anna Nagar Salem"];
-
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="footer_page">
       <div className="footer_block1">
@@ -23,13 +25,15 @@ const Footer = () => {
         {" "}
         <h1>Quick Links</h1>
         <div className="footer_links">
-          <Link>Home</Link>
-          <Link>Services</Link>
-          <Link>Testimonal</Link>
-          <Link>Contact Us</Link>
-          <Link>About</Link>
-          <Link>Projects</Link>
-          <Link>Blogs</Link>{" "}
+          <Link to={"./"} onClick={scrollToTop}>
+            Home
+          </Link>
+          <Link to={"./service"}>Services</Link>
+          <Link to={"/testimonal"}>Testimonal</Link>
+          <Link to={"/contact"}>Contact Us</Link>
+          <Link to={"/about"}>About</Link>
+          <Link to={"/project"}>Projects</Link>
+          <Link to={"/blog"}>Blogs</Link>{" "}
         </div>
       </div>
       <div className="footer_block3">

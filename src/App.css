@@ -369,6 +369,7 @@
   height: 5vh;
   border: none;
   border-radius: 20px;
+  margin-bottom: 20px;
 }
 
 .login_page_submit:hover {
