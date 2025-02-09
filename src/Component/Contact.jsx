@@ -1,4 +1,4 @@
-import Footer from "./Footer";
+
 import Login from "./Login";
 import contact_img from "./images/contact-img.png";
 const Contact = () => {
@@ -16,7 +16,7 @@ const Contact = () => {
           />
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

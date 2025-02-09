@@ -1,4 +1,4 @@
-import Footer from "./Footer";
+
 
 const Testimonal = () => {
   const testimonal_block1 =
@@ -6,7 +6,9 @@ const Testimonal = () => {
   return (
     <>
       <div className="testimonal_block">
-        <h1 className="testimonal_block_header">Testimonal</h1>
+        <div>
+          <h1 className="testimonal_block_header">Testimonal</h1>
+        </div>
         <div className="testimonal_block1">
           <h1 className="testimonl_name">Molik</h1>
           <h1 className="testimonal_char1">&quot; &quot;</h1>
@@ -18,7 +20,7 @@ const Testimonal = () => {
           <p className="testimonal_block2_para">{testimonal_block1}</p>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

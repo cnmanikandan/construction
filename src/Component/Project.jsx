@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import home_1 from "./images/img-1.png";
 import home_2 from "./images/img-2.png";
 import home_3 from "./images/img-3.png";
-import Footer from "./Footer";
 
 const Project = () => {
   let nav_data = [
@@ -62,7 +61,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

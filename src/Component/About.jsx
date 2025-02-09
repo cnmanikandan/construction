@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Footer from "./Footer";
 
 // import aboutImage from "./images/about-img.png";
 const About = () => {
@@ -19,7 +18,7 @@ const About = () => {
         </div>
         <div className="About_block2"></div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

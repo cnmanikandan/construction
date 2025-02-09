@@ -3,7 +3,7 @@ import icon_2 from "./images/icon-2.png";
 import icon_3 from "./images/icon-3.png";
 import icon_4 from "./images/icon-1.png";
 import { Link } from "react-router-dom";
-import Footer from "./Footer";
+
 const Service = () => {
   const scrollToTop = () => {
     window.scrollTo(0, 0);
@@ -77,7 +77,7 @@ const Service = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
