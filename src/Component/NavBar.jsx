@@ -1,4 +1,4 @@
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Service from "./pages/ServicePage";
 import About from "./pages/About_Page";
@@ -20,8 +20,7 @@ const NavBar = () => {
         </ul>
       </div>
       <nav className="navBarComp2">
-        <BrowserRouter>
-          <ul>
+        <ul>
             <li>
               {" "}
               <Link to={"/"}>Home</Link>{" "}
@@ -70,8 +69,7 @@ const NavBar = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/quote" element={<GetaQoute />} />
           </Routes>
-        </BrowserRouter>
-      </nav>
+        </nav>
     </div>
   );
 };
